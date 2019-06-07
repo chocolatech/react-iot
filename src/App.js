@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
 import ScreensContainer from './screens/Container';
 
 function App() {

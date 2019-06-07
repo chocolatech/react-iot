@@ -1,6 +1,6 @@
 import React from "react";
-import Heading from 'react-bulma-components/lib/components/heading';
-import Box from 'react-bulma-components/lib/components/box';
+import {Heading} from '../../node_modules/react-bulma-components';
+import {Box} from '../../node_modules/react-bulma-components';
 
 const ScreensContainer = (props) => {
   return (

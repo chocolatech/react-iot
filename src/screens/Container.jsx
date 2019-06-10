@@ -1,4 +1,5 @@
 import React from "react";
+import DeviceList from "components/DeviceList";
 
 export default class ScreensContainer extends React.Component {
   constructor(props) {
@@ -23,11 +24,7 @@ export default class ScreensContainer extends React.Component {
     return (
       <React.Fragment>
         {this.state.data.map(device => (
-          <React.Fragment>
-            <div key={device.id}>{device.name} </div>
-            <p>{device.status}</p>
-            <p>{device.connection}</p>
-          </React.Fragment>
+          <DeviceList key={device.id} data={this.state.data}/>
         ))}
       </React.Fragment>
     );

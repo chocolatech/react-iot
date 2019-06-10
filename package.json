@@ -7,7 +7,9 @@
     "react": "^16.8.6",
     "react-bulma-components": "^2.3.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-streams": "^13.6.6",
+    "rxjs": "^6.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:3000",
   "eslintConfig": {
     "extends": "react-app"
   },

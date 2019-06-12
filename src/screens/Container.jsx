@@ -21,11 +21,14 @@ export default class ScreensContainer extends React.Component {
     this.getData();
   }
   render() {
+    var devices= this.state.data.map(device => (
+      // <p>{device.id}</p>
+      <DeviceList key={device.id} name={device.name} status={device.status}/>
+    ));
     return (
       <React.Fragment>
-        {this.state.data.map(device => (
-          <DeviceList key={device.id} data={this.state.data}/>
-        ))}
+        <h2>List</h2>
+        {devices}
       </React.Fragment>
     );
   }

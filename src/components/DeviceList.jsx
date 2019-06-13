@@ -1,10 +1,10 @@
 import React from "react";
-const DeviceList = ({device, device: {name, status, connection}}) => {
+const DeviceList = ({device}) => {
   return (
     <React.Fragment>
-      <div>{name}</div>
-      <p>Status: {status}</p>
-      <p>Connection: {connection}</p>
+      <div>{device.name}</div>
+      <p>Status: {device.status}</p>
+      <p>Connection: {device.connection}</p>
     </React.Fragment>
   );
 };

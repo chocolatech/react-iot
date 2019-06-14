@@ -5,6 +5,7 @@ const DeviceList = ({device}) => {
       <div>{device.name}</div>
       <p>Status: {device.status}</p>
       <p>Connection: {device.connection}</p>
+      <hr/>
     </React.Fragment>
   );
 };

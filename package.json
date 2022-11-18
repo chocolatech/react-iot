@@ -7,7 +7,7 @@
     "react": "^16.8.6",
     "react-bulma-components": "^2.3.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-streams": "^13.6.6",
     "rxjs": "^6.5.2"
   },
